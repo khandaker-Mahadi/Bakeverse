@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bakeverse - Premium Bakery & Dessert Boutique</title>
+  <meta name="description" content="Welcome to Bakeverse — Where every bite feels magical. Explore our premium cakes, pastries, cookies, breads and desserts.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#127856;</text></svg>">
+</head>
+<body>
+
+<div class="loading-screen">
+  <div class="loading-logo">Bakeverse</div>
+  <div class="loading-bar"><div class="loading-bar-fill"></div></div>
+</div>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <div class="nav-brand">
+      <a href="index.html" class="nav-logo">Bake<span>verse</span></a>
+    </div>
+    <div class="nav-panel">
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="cakes.html">Cakes</a></li>
+        <li><a href="pastries.html">Pastries</a></li>
+        <li><a href="cookies.html">Cookies</a></li>
+        <li><a href="breads.html">Breads</a></li>
+        <li><a href="desserts.html">Desserts</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="nav-icon search-toggle" title="Search">&#128269;</button>
+        <button class="nav-icon theme-toggle" title="Toggle theme">&#9728;</button>
+        <button class="nav-icon cart-toggle" title="Cart">&#128722;<span class="cart-badge">0</span></button>
+        <button class="hamburger"><span></span><span></span><span></span></button>
+      </div>
+      <div class="nav-indicator"></div>
+    </div>
+  </div>
+</nav>
+
+<div class="search-overlay">
+  <div class="search-box">
+    <input type="text" placeholder="Search products..." autocomplete="off">
+    <div class="search-results"></div>
+  </div>
+</div>
+
+<div class="cart-sidebar">
+  <div class="modal-backdrop"></div>
+  <div class="cart-sidebar-header">
+    <h3>Your Cart</h3>
+    <button class="cart-sidebar-close">&#10005;</button>
+  </div>
+  <div class="cart-sidebar-items"></div>
+  <div class="cart-sidebar-footer">
+    <div class="cart-sidebar-total"><span>Total</span><span>$0</span></div>
+    <a href="cart.html" class="btn btn-primary" style="width:100%;justify-content:center;">View Cart</a>
+  </div>
+</div>
+
+<section class="hero" id="hero">
+  <img class="hero-bg" src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1920&h=1080&fit=crop" alt="Bakery background">
+  <div class="hero-overlay"></div>
+  <div class="hero-particles"></div>
+  <div class="hero-content">
+    <span class="hero-badge">Since 2018</span>
+    <h1 class="hero-title">Welcome to <span>Bakeverse</span><br>Where Every Bite Feels <span>Magical</span></h1>
+    <p class="hero-subtitle">Handcrafted premium cakes, artisanal pastries, and heavenly desserts made with love and the finest ingredients.</p>
+    <div class="hero-buttons">
+      <a href="cakes.html" class="btn btn-primary btn-lg">Explore Menu</a>
+      <a href="contact.html" class="btn btn-secondary btn-lg">Order Now</a>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+    <div class="mouse"></div>
+  </div>
+</section>
+
+<section class="section" id="categories">
+  <div class="container">
+    <h2 class="section-title reveal">Explore Our <span>Categories</span></h2>
+    <p class="section-subtitle reveal">Discover a world of handcrafted flavors</p>
+    <div class="categories-grid">
+      <a href="cakes.html" class="category-card reveal">
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=500&fit=crop" alt="Cakes" loading="lazy">
+        <div class="category-overlay"><h3>Cakes</h3><p>20+ premium flavors</p><span class="btn btn-outline btn-sm">Explore</span></div>
+      </a>
+      <a href="pastries.html" class="category-card reveal">
+        <img src="https://images.unsplash.com/photo-1555507036-ab1f4038026a?w=400&h=500&fit=crop" alt="Pastries" loading="lazy">
+        <div class="category-overlay"><h3>Pastries</h3><p>French artisan delights</p><span class="btn btn-outline btn-sm">Explore</span></div>
+      </a>
+      <a href="cookies.html" class="category-card reveal">
+        <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400&h=500&fit=crop" alt="Cookies" loading="lazy">
+        <div class="category-overlay"><h3>Cookies</h3><p>Freshly baked daily</p><span class="btn btn-outline btn-sm">Explore</span></div>
+      </a>
+      <a href="breads.html" class="category-card reveal">
+        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&h=500&fit=crop" alt="Breads" loading="lazy">
+        <div class="category-overlay"><h3>Breads</h3><p>Artisan sourdough</p><span class="btn btn-outline btn-sm">Explore</span></div>
+      </a>
+      <a href="desserts.html" class="category-card reveal">
+        <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=400&h=500&fit=crop" alt="Desserts" loading="lazy">
+        <div class="category-overlay"><h3>Desserts</h3><p>Sweet indulgence</p><span class="btn btn-outline btn-sm">Explore</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="bestSellers" style="background:var(--bg-alt);">
+  <div class="container">
+    <h2 class="section-title reveal">Our <span>Best Sellers</span></h2>
+    <p class="section-subtitle reveal">Most loved treats by our customers</p>
+    <div class="products-grid" id="bestSellersContainer"></div>
+  </div>
+</section>
+
+<section class="special-section" id="specialSection">
+  <div class="container">
+    <div class="special-content">
+      <div class="special-image reveal-left">
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&h=500&fit=crop" alt="Today's Special" loading="lazy">
+      </div>
+      <div class="special-info reveal-right">
+        <span class="special-badge">Limited Edition</span>
+        <h2>Today's Special</h2>
+        <p>Indulge in our chef's handpicked creation of the day — the luxurious Chocolate Truffle Cake, made with 70% Belgian dark chocolate and a velvety ganache finish.</p>
+        <div class="special-timer" id="countdownTimer"></div>
+        <a href="cakes.html" class="btn btn-primary btn-lg">Order Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="testimonials">
+  <div class="container">
+    <h2 class="section-title reveal">What Our <span>Customers Say</span></h2>
+    <p class="section-subtitle reveal">Hear from the Bakeverse community</p>
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal">
+        <img class="testimonial-img" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="Sarah" loading="lazy">
+        <p class="testimonial-name">Sarah Johnson</p>
+        <p class="testimonial-role">Regular Customer</p>
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"The Black Forest cake from Bakeverse is absolutely divine! Every bite feels like heaven. Highly recommended!"</p>
+      </div>
+      <div class="testimonial-card reveal">
+        <img class="testimonial-img" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" alt="Michael" loading="lazy">
+        <p class="testimonial-name">Michael Chen</p>
+        <p class="testimonial-role">Food Blogger</p>
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"As a pastry chef myself, I'm blown away by the quality and creativity. Their croissants rival any Parisian bakery!"</p>
+      </div>
+      <div class="testimonial-card reveal">
+        <img class="testimonial-img" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop" alt="Emily" loading="lazy">
+        <p class="testimonial-name">Emily Rodriguez</p>
+        <p class="testimonial-role">Event Planner</p>
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"I ordered a custom cake for my wedding and it was stunning! Both beautiful and delicious. Thank you Bakeverse!"</p>
+      </div>
+      <div class="testimonial-card reveal">
+        <img class="testimonial-img" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop" alt="David" loading="lazy">
+        <p class="testimonial-name">David Thompson</p>
+        <p class="testimonial-role">Loyal Customer</p>
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"I've been coming to Bakeverse for years. Their sourdough and croissants are the best in town. Never disappoints!"</p>
+      </div>
+      <div class="testimonial-card reveal">
+        <img class="testimonial-img" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop" alt="Jessica" loading="lazy">
+        <p class="testimonial-name">Jessica Park</p>
+        <p class="testimonial-role">Birthday Specialist</p>
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"Ordered three custom cakes for my kids' birthdays. Each one was a masterpiece! The kids absolutely loved them."</p>
+      </div>
+      <div class="testimonial-card reveal">
+        <img class="testimonial-img" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&h=100&fit=crop" alt="James" loading="lazy">
+        <p class="testimonial-name">James Wilson</p>
+        <p class="testimonial-role">Coffee Connoisseur</p>
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"The perfect pairing of coffee and pastries. Their cinnamon roll with a cappuccino is my daily guilty pleasure!"</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="newsletter-section" id="newsletter">
+  <div class="container">
+    <div class="newsletter-content reveal">
+      <h2>Stay in the <span style="color:var(--gold);">Sweet</span> Loop</h2>
+      <p>Subscribe to get exclusive offers, new product alerts, and baking tips.</p>
+      <form class="newsletter-form" onsubmit="event.preventDefault();showToastMsg('Subscribed! Welcome to Bakeverse.','success')">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>Bakeverse</h3>
+        <p>Handcrafted premium bakery goods made with love and the finest ingredients. Every bite tells a story of passion and tradition since 2018.</p>
+        <div class="footer-social">
+          <a href="#" title="Facebook">f</a>
+          <a href="#" title="Instagram">in</a>
+          <a href="#" title="Twitter">x</a>
+          <a href="#" title="Pinterest">p</a>
+          <a href="#" title="YouTube">yt</a>
+        </div>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Categories</h4>
+        <ul class="footer-links">
+          <li><a href="cakes.html">Cakes</a></li>
+          <li><a href="pastries.html">Pastries</a></li>
+          <li><a href="cookies.html">Cookies</a></li>
+          <li><a href="breads.html">Breads</a></li>
+          <li><a href="desserts.html">Desserts</a></li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <h4>Newsletter</h4>
+        <p>Get 10% off your first order when you subscribe.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault();showToastMsg('Subscribed!','success')">
+          <input type="email" placeholder="Your email">
+          <button type="submit" class="btn btn-primary btn-sm">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Bakeverse. All rights reserved. Made with &#9829;</p>
+      <div class="footer-payments">
+        <span>&#9830;</span>
+        <span>&#9824;</span>
+        <span>&#9829;</span>
+        <span>&#9827;</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="modal" id="quickViewModal">
+  <div class="modal-backdrop"></div>
+  <div class="modal-content">
+    <button class="modal-close" onclick="this.closest('.modal').classList.remove('active')">&#10005;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <h2></h2>
+      <div class="rating"></div>
+      <p class="description"></p>
+      <p class="price"></p>
+      <button class="btn btn-primary add-to-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+<button class="scroll-top" title="Scroll to top">&#8593;</button>
+<a href="https://wa.me/1234567890" class="whatsapp-btn" target="_blank" title="Order via WhatsApp">&#128172;</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>

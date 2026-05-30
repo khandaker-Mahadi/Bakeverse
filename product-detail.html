@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product - Bakeverse Premium Bakery</title>
+  <meta name="description" content="Premium bakery product details at Bakeverse.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#127856;</text></svg>">
+</head>
+<body>
+
+<div class="loading-screen">
+  <div class="loading-logo">Bakeverse</div>
+  <div class="loading-bar"><div class="loading-bar-fill"></div></div>
+</div>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <div class="nav-brand">
+      <a href="index.html" class="nav-logo">Bake<span>verse</span></a>
+    </div>
+    <div class="nav-panel">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cakes.html">Cakes</a></li>
+        <li><a href="pastries.html">Pastries</a></li>
+        <li><a href="cookies.html">Cookies</a></li>
+        <li><a href="breads.html">Breads</a></li>
+        <li><a href="desserts.html">Desserts</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="nav-icon search-toggle" title="Search">&#128269;</button>
+        <button class="nav-icon theme-toggle" title="Toggle theme">&#9728;</button>
+        <button class="nav-icon cart-toggle" title="Cart">&#128722;<span class="cart-badge">0</span></button>
+        <button class="hamburger"><span></span><span></span><span></span></button>
+      </div>
+      <div class="nav-indicator"></div>
+    </div>
+  </div>
+</nav>
+
+<div class="search-overlay">
+  <div class="search-box">
+    <input type="text" placeholder="Search products..." autocomplete="off">
+    <div class="search-results"></div>
+  </div>
+</div>
+
+<div class="cart-sidebar">
+  <div class="modal-backdrop"></div>
+  <div class="cart-sidebar-header">
+    <h3>Your Cart</h3>
+    <button class="cart-sidebar-close">&#10005;</button>
+  </div>
+  <div class="cart-sidebar-items"></div>
+  <div class="cart-sidebar-footer">
+    <div class="cart-sidebar-total"><span>Total</span><span></span></div>
+    <a href="cart.html" class="btn btn-primary" style="width:100%;justify-content:center;">View Cart</a>
+  </div>
+</div>
+
+<section class="product-detail-page">
+  <div class="container" id="productDetailContainer"></div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>Bakeverse</h3>
+        <p>Handcrafted premium bakery goods made with love and the finest ingredients since 2018.</p>
+        <div class="footer-social">
+          <a href="#" title="Facebook">f</a>
+          <a href="#" title="Instagram">in</a>
+          <a href="#" title="Twitter">x</a>
+          <a href="#" title="Pinterest">p</a>
+          <a href="#" title="YouTube">yt</a>
+        </div>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Categories</h4>
+        <ul class="footer-links">
+          <li><a href="cakes.html">Cakes</a></li>
+          <li><a href="pastries.html">Pastries</a></li>
+          <li><a href="cookies.html">Cookies</a></li>
+          <li><a href="breads.html">Breads</a></li>
+          <li><a href="desserts.html">Desserts</a></li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <h4>Newsletter</h4>
+        <p>Get 10% off your first order when you subscribe.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault();showToastMsg('Subscribed!','success')">
+          <input type="email" placeholder="Your email">
+          <button type="submit" class="btn btn-primary btn-sm">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Bakeverse. All rights reserved. Made with &#9829;</p>
+      <div class="footer-payments"><span>&#9830;</span><span>&#9824;</span><span>&#9829;</span><span>&#9827;</span></div>
+    </div>
+  </div>
+</footer>
+
+<button class="scroll-top" title="Scroll to top">&#8593;</button>
+<a href="https://wa.me/1234567890" class="whatsapp-btn" target="_blank" title="Order via WhatsApp">&#128172;</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
